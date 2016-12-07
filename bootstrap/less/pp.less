@@ -1,0 +1,216 @@
+@charset "utf-8";
+*{font-family: "微软雅黑";}
+#one{
+   
+    margin-bottom: 0;
+    border-radius: 0;
+    .navbar-header{
+        a{ padding-left: 10px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 22px;
+            text-decoration: none;
+        }
+    }
+    ul{
+        a{
+            color: #fff;
+            &:hover{
+                color: deepskyblue;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+#two{
+    margin-bottom:10px ;
+    .navbar-header{
+        height: 80px;
+        a{  
+           img{
+               margin-top:8px ;
+           }
+        }
+    }
+    ul{
+        li{
+            &:hover{
+                background: #ddd;
+            }
+            a{
+                padding-top: 0;
+                padding-bottom: 0;
+                line-height: 80px;
+                font-size: 16px;
+                &:hover{
+                    color: deepskyblue;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width :768px){
+    #two{
+        ul{
+            li{text-align: center;
+                a{
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 22px;
+                    letter-spacing: 10px;
+                    font-family: "黑体";
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+.carousel-indicators{
+    position: absolute;
+    left:50%;
+    bottom: 0px;
+}
+#carousel-example-generic{
+    margin-bottom: 12px;
+}
+#touzi{
+    .touzi{
+        h4{
+            color: #000;
+            font-weight: bold;
+        }
+        p{
+            color: #666;
+        }
+        img{
+            margin-top: 10px;
+            
+        }
+    }
+    .col-md-2{
+        padding-left: 0;
+        text-align: center;
+    }
+    .col-md-10{
+//      margin-left: 10px;
+//      padding-right: 0;
+    }
+}
+#table-one{
+    border: 0;
+    .panel-body{
+        padding: 0;
+        .pull-right{
+            line-height: 33px;
+        }
+        .pull-left{
+            padding-bottom: 4px;
+            margin: 0;
+            border-bottom: 3px solid dodgerblue;
+            color: dodgerblue;
+        }
+    }
+    table{
+        tr{
+            height:47px ;
+        }
+        th{
+            color: #999;
+        }
+        td{
+            line-height: 47px;
+            font-size:16px ;
+            padding: 0;
+        }
+        td:last-child{
+            
+            
+        }
+    }
+}
+#table-two{
+    border: 0;
+    .panel-body{
+        padding: 0;
+        .pull-right{
+            line-height: 33px;
+        }
+        .pull-left{
+            padding-bottom: 4px;
+            margin: 0;
+            border-bottom: 3px solid dodgerblue;
+            color: dodgerblue;
+        }
+    }
+    ul{
+        li{
+            height: 40px;
+            padding-left: 0;
+            padding-right: 0;
+            a{
+                color: #555;
+                &:hover{
+                    color: dodgerblue;
+                }
+            }
+        }
+    }
+}
+.mb{
+    .panel{
+        border: 0;
+        .panel-body{
+            padding: 0;
+            h3{
+                margin: 0;
+                padding-bottom: 4px;
+                color: dodgerblue;
+                border-bottom: 3px solid dodgerblue;
+            }
+            a{
+                line-height: 33px;
+            }
+        }
+        ul{
+            li{
+                height: 40px;
+                padding-left: 0 ;
+                padding-right: 0 ;
+                a{
+                    color: #555;
+                    &:hover{
+                        color: dodgerblue;
+                    }
+                }
+            }
+        }
+    }
+}
+#footer{
+    background: #eee;
+    margin-top: 30px;
+    .col-md-7{
+        padding-top: 34px;
+    }
+    .col-md-5{
+        padding-top: 34px;
+        .wb{
+            p{
+                padding-left: 8px;
+            }
+            img{
+                width: 160px;
+                height: 65px;
+            }
+        }
+        .wx{
+            img{
+                width: 160px;
+                height: 160px;
+            }
+        }
+    }
+}
+#end{
+    height: 30px;
+}

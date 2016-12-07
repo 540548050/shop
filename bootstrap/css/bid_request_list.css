@@ -1,0 +1,86 @@
+@charset "utf-8";
+* {
+  font-family: "微软雅黑";
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+#header {
+  margin: 0;
+  border-radius: 0;
+}
+#header ul {
+  margin-top: 0;
+  padding: 0;
+}
+#header ul li a {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 50px;
+  color: #fff;
+  background: #222222;
+}
+#header ul li a:hover {
+  color: deepskyblue;
+  text-decoration: underline;
+}
+#login img {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+#login ul li:hover {
+  background-color: #eee;
+}
+#login ul li:hover a {
+  color: dodgerblue;
+}
+#login ul li a {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 16px;
+}
+#menu li {
+  padding: 0;
+}
+#menu li a {
+  padding: 10px 15px;
+  display: block;
+}
+#menu li.list-group-item > a {
+  background: #eee;
+  text-decoration: none;
+}
+#menu li.list-group-item ul li {
+  border-top: 1px solid #ddd;
+}
+#menu li.list-group-item ul li a {
+  padding-left: 40px;
+}
+#footer {
+  background: #eee;
+  margin-top: 30px;
+}
+#footer .col-md-7 {
+  padding-top: 34px;
+}
+#footer .col-md-5 {
+  padding-top: 34px;
+}
+#footer .col-md-5 .wb p {
+  padding-left: 8px;
+}
+#footer .col-md-5 .wb img {
+  width: 160px;
+  height: 65px;
+}
+#footer .col-md-5 .wx img {
+  width: 160px;
+  height: 160px;
+}
+#end {
+  height: 30px;
+}

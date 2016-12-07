@@ -1,0 +1,45 @@
+@charset "utf-8";
+* {
+  font-family: "微软雅黑";
+}
+#header {
+  height: 127px;
+  background: #F4F8FA;
+  border-left: 2px solid #0099DD;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+#header h3 {
+  margin: 0;
+  color: #0099DD ;
+  padding-top: 44px;
+  padding-bottom: 14px;
+}
+#header p {
+  color: #31708F ;
+}
+#main {
+  padding-top: 20px ;
+}
+#right-box {
+  width: 300px;
+  height: 174px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: absolute;
+  right: 80px ;
+  top: 30px;
+  padding-left: 30px;
+  box-shadow: 1px 1px 20px #ddd;
+}
+#right-box h4 {
+  margin-top: 35px ;
+}
+#right-box span {
+  color: #31708F;
+}
+@media screen and (max-width: 996px) {
+  #right-box {
+    display: none;
+  }
+}
